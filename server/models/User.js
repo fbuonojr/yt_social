@@ -18,27 +18,27 @@ const UserSchema = new mongoose.Schema(
             type: String,
             required: true,
             max: 50,
-            unique: true
+            unique: true,
         },
         password: {
             type: String,
             required: true,
-            min: 5
+            min: 5,
         },
         picturePath: {
             type: String,
-            default: ""
+            default: "",
         },
         friends: {
             type: Array,
-            default: []
+            default: [],
         },
         location: String,
         occupation: String,
         viewedProfile: Number,
-        imppressions: Number,
-    }, 
-    {timestamps: true}
+        impressions: Number,
+    },
+    { timestamps: true }
 );
 
 const User = mongoose.model("User", UserSchema);
