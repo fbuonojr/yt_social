@@ -1,2 +1,0 @@
-username: dbuser
-auto-pass: vlqxgoZ3JXnd3aBE
