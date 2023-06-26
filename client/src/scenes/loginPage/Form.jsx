@@ -127,7 +127,7 @@ const Form = () => {
               "& > div": { gridColumn: isNonMobile ? undefined : "span 4" },
             }}
           >
-            {isRegister && (
+            { isRegister && (
               <>
                 <TextField
                   label="First Name"
