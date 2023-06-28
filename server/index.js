@@ -52,7 +52,7 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
-/* MONGOOSE SETUP: nodemon index.js to start server*/
+/* MONGOOSE SETUP */
 const PORT = process.env.PORT || 6001;
 mongoose
   .connect(process.env.MONGO_URL, {
